@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: solid;
+    border-color: aqua;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+.container img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 185px;
+    margin-top: -10px;
+}

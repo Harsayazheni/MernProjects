@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+nav {
+    background-color: red;
+
+    & ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    
+        & li {
+            padding: 10px 5px;
+            background-color: yellow;
+        
+            &:hover {
+                background-color: aqua;
+                cursor: pointer;
+            
+                & .submenu {
+                    display: block;
+                }
+            } 
+        }
+    }
+}
+.submenu {
+    position: absolute;
+    background: gray;
+    color: white;
+    padding: 5px;
+    margin-left: -5px;
+    margin-top: 10px;
+    display: none;
+}

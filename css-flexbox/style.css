@@ -1,0 +1,13 @@
+.row{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    height: 400px;
+
+}
+.col{
+    background-color: blue;
+    
+    
+}

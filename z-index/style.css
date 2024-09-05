@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.flip-box{
+    width: 500px;
+    height: 312px;
+    border: solid;
+}
+.flip-box img{
+    position: absolute;
+    width: 495px;
+    z-index: 1;
+}
+,.flip-box p{
+    position: absolute;
+}
+.flip-box:hover img{
+    z-index: -1;
+}
